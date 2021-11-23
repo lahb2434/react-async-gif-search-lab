@@ -18,4 +18,5 @@ export default class GifSearch extends React.Component {
     event.preventDefault();
     this.props.gifSearch(this.state.userInput)
   }
+
 }
